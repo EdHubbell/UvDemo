@@ -46,6 +46,7 @@
             this.tsmiShowHelpDocs = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiOpenLogsFolder = new System.Windows.Forms.ToolStripMenuItem();
             this.btnOpenSpectrometerSettings = new FontAwesome.Sharp.IconButton();
+            this.tsmiOpenSettingsFolder = new System.Windows.Forms.ToolStripMenuItem();
             this.tlpMain.SuspendLayout();
             this.tcMain.SuspendLayout();
             this.tpMeasurements.SuspendLayout();
@@ -217,7 +218,8 @@
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiShowHelpDocs,
-            this.tsmiOpenLogsFolder});
+            this.tsmiOpenLogsFolder,
+            this.tsmiOpenSettingsFolder});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
@@ -225,14 +227,14 @@
             // tsmiShowHelpDocs
             // 
             this.tsmiShowHelpDocs.Name = "tsmiShowHelpDocs";
-            this.tsmiShowHelpDocs.Size = new System.Drawing.Size(167, 22);
+            this.tsmiShowHelpDocs.Size = new System.Drawing.Size(184, 22);
             this.tsmiShowHelpDocs.Text = "Show Help Docs";
             this.tsmiShowHelpDocs.Click += new System.EventHandler(this.tsmiShowHelpDocs_Click);
             // 
             // tsmiOpenLogsFolder
             // 
             this.tsmiOpenLogsFolder.Name = "tsmiOpenLogsFolder";
-            this.tsmiOpenLogsFolder.Size = new System.Drawing.Size(167, 22);
+            this.tsmiOpenLogsFolder.Size = new System.Drawing.Size(184, 22);
             this.tsmiOpenLogsFolder.Text = "Open Logs Folder";
             this.tsmiOpenLogsFolder.Click += new System.EventHandler(this.tsmiOpenLogsFolder_Click);
             // 
@@ -252,6 +254,13 @@
             this.btnOpenSpectrometerSettings.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnOpenSpectrometerSettings.UseVisualStyleBackColor = false;
             this.btnOpenSpectrometerSettings.Click += new System.EventHandler(this.btnOpenSpectrometerSettings_Click);
+            // 
+            // tsmiOpenSettingsFolder
+            // 
+            this.tsmiOpenSettingsFolder.Name = "tsmiOpenSettingsFolder";
+            this.tsmiOpenSettingsFolder.Size = new System.Drawing.Size(184, 22);
+            this.tsmiOpenSettingsFolder.Text = "Open Settings Folder";
+            this.tsmiOpenSettingsFolder.Click += new System.EventHandler(this.tsmiOpenSettingsFolder_Click);
             // 
             // frmMain
             // 
@@ -297,6 +306,7 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiShowHelpDocs;
         private System.Windows.Forms.ToolStripMenuItem tsmiOpenLogsFolder;
         private FontAwesome.Sharp.IconButton btnOpenSpectrometerSettings;
+        private System.Windows.Forms.ToolStripMenuItem tsmiOpenSettingsFolder;
     }
 }
 

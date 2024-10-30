@@ -90,6 +90,11 @@ namespace UvDemo
             OpenFolderInExplorerWindow(logsPath);
         }
 
+        private void tsmiOpenSettingsFolder_Click(object sender, EventArgs e)
+        {
+            OpenFolderInExplorerWindow(_settingsFolderPath);
+        }
+
         private void OpenFolderInExplorerWindow(string folderPath)
         {
             try
@@ -190,5 +195,6 @@ namespace UvDemo
 
 
         }
+
     }
 }
