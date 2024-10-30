@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CSharpWinFormsTemplate.Properties
+namespace UvDemo.Properties
 {
 
 

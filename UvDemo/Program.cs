@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using NLog;
 
-namespace CSharpWinFormsTemplate
+namespace UvDemo
 {
 
     internal static class Program
